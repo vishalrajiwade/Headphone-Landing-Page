@@ -170,3 +170,36 @@ nav img{
 .right-section button{
     margin-left: 2rem;
 }
+
+
+/* Rwsponsive Design for 768px */
+
+@media only screen and (max-width:768px) {
+    .nav-items {
+        display: none;
+    }
+
+    nav img{
+        height: 2rem;
+    }
+
+    .intro-section {
+        flex-direction: column-reverse;
+    }
+
+    [alt="headphone"]{
+        height: 15rem;
+    }
+
+    .action-btn{
+        font-size: .8rem;
+    }
+
+    .right-section {
+        margin-bottom: 3rem;
+    }
+
+    .left-section h1{
+        font-size: 3rem;
+    }
+}
